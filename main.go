@@ -52,7 +52,7 @@ func getPosts(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	m := make(map[string]interface{})
 	var posts []Post
-	result, err := db.Query("SELECT id, post_text, title, dnt, user_id from posts limit ")
+	result, err := db.Query("SELECT id, post_text, title, dnt, user_id from posts")
 	if err != nil {
 		panic(err.Error())
 	}
