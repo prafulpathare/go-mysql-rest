@@ -1,16 +1,24 @@
 # CRUD REST with GoLang
 
 ### Setup
-Import or Run SQL [go_test.sql](https://github.com/prafulpathare/go-mysql-rest/blob/main/go_test.sql) into MySQL
+Import or Run [go_test.sql](https://github.com/prafulpathare/go-mysql-rest/blob/main/go_test.sql) into MySQL
 
 ```sh
 
 $ go mod init github.com/prafulpathare/go-mysql-rest
 $ go get github.com/go-sql-driver/mysql
 $ go get github.com/gorilla/mux
-$ go run ./main.go          # to run development server
-$ go build                  # to create production executable
-$ ./go-mysql-rest           # run production server
+```
+
+to run development server
+```sh
+$ go run ./main.go
+```
+
+to create production executable and execute
+```sh
+$ go build
+$ ./go-mysql-rest
 ```
 
 #### References 
