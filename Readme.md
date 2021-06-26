@@ -1,6 +1,12 @@
 # CRUD REST with GoLang
 
-### Setup
+![](https://cdn.golangme.com/static/img/golang-with-mysql.jpg)
+
+## Index
+1. [Setup]
+
+
+## Setup
 Import or Run [go_test.sql](https://github.com/prafulpathare/go-mysql-rest/blob/main/go_test.sql) into MySQL
 
 ```sh
@@ -20,6 +26,8 @@ to create production executable and execute
 $ go build
 $ ./go-mysql-rest
 ```
+
+
 
 #### References 
 * https://medium.com/@hugo.bjarred/rest-api-with-golang-mux-mysql-c5915347fa5b
