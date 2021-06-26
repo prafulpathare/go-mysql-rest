@@ -3,7 +3,7 @@
 ![](https://cdn.golangme.com/static/img/golang-with-mysql.jpg)
 
 ## Index
-1. [Setup]
+1. [Setup](##Setup)
 
 
 ## Setup
