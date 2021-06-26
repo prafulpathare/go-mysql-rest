@@ -1,7 +1,10 @@
 # CRUD REST with GoLang
 
 ### Setup
+Import or Run SQL [go_test.sql](https://github.com/prafulpathare/go-mysql-rest/blob/main/go_test.sql) into MySQL
+
 ```sh
+
 $ go mod init github.com/prafulpathare/go-mysql-rest
 $ go get github.com/go-sql-driver/mysql
 $ go get github.com/gorilla/mux
